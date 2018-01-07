@@ -9,21 +9,7 @@
 		"node": "9.3.0"
 	},
 	"dependencies": {
-		"eslint": "^4.14.0",
-		"eslint-config-airbnb": "^16.1.0",
-		"eslint-config-prettier": "^2.9.0",
-		"eslint-plugin-import": "^2.9.0",
 		"immutable": "^3.8.1",
 		"nightmare": "^2.10.0"
 	},
-	"eslintConfig": {
-		"root": true,
-		"env": {
-			"node": true
-		},
-		"extends": [
-			"airbnb-base",
-			"prettier"
-		]
-	}
 }
