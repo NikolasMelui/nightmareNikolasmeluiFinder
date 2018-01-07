@@ -5,6 +5,9 @@
 	"repository": "git@github.com:NikolasMelui/nightmare-test.git",
 	"author": "NikolasMelui <slak@samaradom.ru>",
 	"license": "MIT",
+	"engines": {
+		"node": "9.3.0"
+	},
 	"dependencies": {
 		"eslint": "^4.14.0",
 		"eslint-config-airbnb": "^16.1.0",
