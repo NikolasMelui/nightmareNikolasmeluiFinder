@@ -1,6 +1,7 @@
 const Nightmare = require('nightmare');
 
 const dream = Nightmare({ show: 'true' });
+let i = 1;
 dream
 	.goto('https://duckduckgo.com')
 	.type('input', 'NikolasMelui') // First arg is field, second is info
@@ -11,3 +12,5 @@ dream
 	.then(res => {
 		console.log(res);
 	});
+i = 2;
+console.log(1);
